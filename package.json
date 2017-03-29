@@ -1,6 +1,6 @@
 {
   "name": "language-leg",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "LEG  language support in Atom",
   "engines": {
     "atom": "*"
