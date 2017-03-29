@@ -8,10 +8,10 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/andrealmeid/atom-language-leg"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/andrealmeid/atom-language-leg/issues"
   },
   "license": "MIT"
 }
