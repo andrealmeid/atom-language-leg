@@ -1,0 +1,31 @@
+'scopeName': 'source.leg'
+'name': 'LEG'
+'fileTypes': ['s']
+
+'patterns': [
+    {
+        'match': '\\b(([0-9]+\\.?[0-9]*)|(\\.[0-9]+)|(0[xX][0-9a-fA-F]+))\\b'
+        'name': 'constant.numeric.leg'
+    }
+
+    {
+        'begin': '@'
+        'end': '\\n'
+        'name': 'comment.line.leg'
+    }
+
+    {
+        'match': '^\\w+:'
+        'name': 'entity.name.function.leg'
+    }
+
+    {
+        'match': '\\b(set)|(add)|(.org)|(hlt)\\b'
+        'name': 'entity.name.tag.leg'
+    }
+
+    {
+        'match': '\\b(r+[0-9]+[0-3]?)\\b'
+        'name': 'storage.type'
+    }
+]
