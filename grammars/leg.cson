@@ -20,12 +20,12 @@
     }
 
     {
-        'match': '\\b((mov)|(set)|(ld)|(ldb)|(st)|(stb)|(add)|(sub)|(cmp)|(and)|(or)|(xor)|(tst)|(not)|(shl)|(shr)|(sar)|(rol)|(ror)|(rcl)|(rcr)|(jmp)|(jc)|(jnc)|(jz)|(jnz)|(jo)|(jno)|(js)|(jns)|(jl)|(jle)|(jg)|(jge)|(ja)|(jna)|(push)|(pop)|(call)|(ret)|(in)|(inb)|(out)|(outb)|(pushf)|(popf)|(sys)|(iret)|(clc)|(stc)|(cli)|(sti)|(wait)|(drop)|(hlt))\\b|\\B(\\.org)\\b'
+        'match': '\\b((mov)|(set)|(ld)|(ldb)|(st)|(stb)|(add)|(sub)|(cmp)|(and)|(or)|(xor)|(tst)|(not)|(shl)|(shr)|(sar)|(rol)|(ror)|(rcl)|(rcr)|(jmp)|(jc)|(jnc)|(jz)|(jnz)|(jo)|(jno)|(js)|(jns)|(jl)|(jle)|(jg)|(jge)|(ja)|(jna)|(push)|(pop)|(call)|(ret)|(in)|(inb)|(out)|(outb)|(pushf)|(popf)|(sys)|(iret)|(clc)|(stc)|(cli)|(sti)|(wait)|(drop)|(hlt))\\b|\\B(\\.org)|\\B(\\.skip)|\\B(\\.word)\\b'
         'name': 'entity.name.tag.leg'
     }
 
     {
-        'match': '\\b(r+[0-9]+[0-3]?)\\b'
+        'match': '\\b(r+[0-9]+[0-3]?)|(sp)|(ip)|(fp)\\b'
         'name': 'storage.type.leg'
     }
 
