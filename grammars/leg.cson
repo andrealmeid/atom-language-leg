@@ -1,6 +1,6 @@
 'scopeName': 'source.leg'
 'name': 'LEG'
-'fileTypes': ['s']
+'fileTypes': ['s', 'leg']
 
 'patterns': [
     {
