@@ -1,5 +1,5 @@
 # Realce de sintaxe para LEG no Atom
-_For English version, see below_
+_For English version, see below. If you liked it, leave a star ;)_
 
 LEG é uma arquitetura de processador educativa criada por [Ricardo Anido](http://ic.unicamp.br/~ranido), do [Instituto de Computação - UNICAMP](http://ic.unicamp.br/). Ela é usada na disciplina de MC404 - Organização Básica de Computadores e Linguagem de Montagem e tem sua própria linguagem de montagem (_assembly_), a qual esse pacote faz suporte.
 
